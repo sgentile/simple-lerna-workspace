@@ -8,7 +8,8 @@
     "test": "lerna run test",
     "test:common": "lerna run test --scope=@walnut/common",
     "new-version": "lerna version --conventional-commits --yes",
-    "diff": "learn diff",
+    "publish": "lerna publish",
+    "diff": "lerna diff",
     "git": "touch .gitignore && echo 'node_modules/' >> .gitignore && git rm -r --cached node_modules ; git status"
   },
   "devDependencies": {
