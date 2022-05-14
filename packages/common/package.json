@@ -1,0 +1,10 @@
+{
+  "name": "@walnut/common",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "echo building common",
+    "test": "echo testing common with version $npm_package_version"
+  }
+}

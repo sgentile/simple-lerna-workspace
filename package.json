@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "test:common": "lerna run test --scope=@walnut/common",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "learn diff",
+    "git": "touch .gitignore && echo 'node_modules/' >> .gitignore && git rm -r --cached node_modules ; git status"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "name": "lerna"
+}
